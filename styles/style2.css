@@ -1,0 +1,22 @@
+html{
+font-family: 'Verdena Bold',sans-serif;
+}
+body{
+width: 1200px;
+}
+
+img{
+border: 3px solid black;
+padding: 5px;
+}
+h1{
+text-align: left;
+color: green; 
+}
+h2,h3{
+background-color: blue;
+color: white;
+}
+p,li{
+	
+}
