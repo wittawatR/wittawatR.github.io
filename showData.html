@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree|Roboto" rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <title>EN KKU Education personnel properties selection</title>
+</head>
+
+<body>
+
+
+    <nav>
+        <img src="images/enkku-logo.png" alt="logo" height="100px" width="100px" align="left">
+        <h1 style="margin-left: 110px; margin-top: 20px; margin-bottom: 0px;">EN KKU</h1>
+        <ul>
+            <li><button id="con-btn"><a href="contract.html">Contract</a></button></li>
+            <li><button id="home-btn"><a href="index.html"><i class="fa fa-home"></i></a></button></li>
+            <ul>
+                <p style="margin-left: 110px; margin-top: 0%;">Education personnel properties selection</p>
+    </nav>
+
+    <article>
+
+        <div class="profData"></div>
+
+        <div class="pane">
+            <table class="panal">
+                <td id="dept-col">
+                    <p>ปีที่ตีพิมพ์ผลงาน (publish year)</p>
+                    <select class="dept-select" style="width:325px;" onChange="onYearChange(this)">
+                        <option value="" selected>All publish year</option>
+                        <option id="2018-y" value="2018">2018</option>
+                        <option id="2017-y" value="2017">2017</option>
+                        <option id="2016-y" value="2016">2016</option>
+                        <option id="2015-y" value="2015">2015</option>
+                        <option id="2014-y" value="2014">2014</option>
+                    </select>
+                </td>
+            </table>
+        </div>
+
+        <div class="headCard">
+            <table class="cardTable">
+                <td id="show-head-tb-no">ลำดับที่</td>
+                <td id="show-head-tb-pubName">ชื่อบทความ</td>
+                <td id="show-head-tb-year">ปีที่ตีพิมพ์</td>
+            </table>
+        </div>
+        <div class=res></div>
+
+    </article>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+    var profName = decodeURIComponent(location.search.split('name=')[1]);
+    
+
+    $(".dept-select").change();
+    function onYearChange(e) {
+        let year = e.value;
+        
+        $.get("http://localhost:8080/showData/" + profName + '?year=' + year, function (filData) {
+            var card = '';
+            var count = 0;
+            $(".res").html(null);
+            for (i = 0; i < filData.length; i++) {
+                var filPubTitle = (filData[i].title).toString();
+                var filPubYear = (filData[i].year).toString();
+                count++
+                card += '<div class="card"><table class="cardTable"><tr>' +
+                    '<td class="show-numberTd" align="center">' + count + '</td>' +
+                    '<td class="show-titleTd">' + filPubTitle + '</td>' +
+                    '<td class="show-yearTd">' + filPubYear + '</td>' +
+                    '</tr></table></div>';
+            }
+            $(".res").html(card);
+        });
+
+    }
+    $.get("http://localhost:8000/XML/Project/DEV/profData.json", function (profData) {
+        var profThName;
+        var deptThName;
+        for (var j = 0; j < profData.length; j++) {
+            var enName = profData[j].profNameEN;
+            var thName = profData[j].profNameTH;
+            var deptName = profData[j].deptName;
+
+            if (enName == profName) {
+                profThName = thName;
+                deptThName = deptName;
+                break
+            }
+        }
+        //console.log(profThName);
+        $(".profData").html("Personnel Name : " + profName+"<br>"+"ชื่อบุคลากร : "+profThName+"<br>"+"สาขาวิชา : "+deptThName); 
+    });
+    
+    
+
+</script>
+
+</html>

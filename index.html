@@ -1,129 +1,187 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Gmail API Quickstart</title>
+
+<head>
     <meta charset="utf-8" />
-  </head>
-  <body>
-    <p>Gmail API Quickstart</p>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree|Roboto" rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <title>EN KKU Education personnel properties selection</title>
+</head>
 
-    <!--Add buttons to initiate auth sequence and sign out-->
-    <button id="authorize_button" style="display: none;">Authorize</button>
-    <button id="signout_button" style="display: none;">Sign Out</button>
+<body>
 
-    <pre id="content"></pre>
 
-    <script type="text/javascript">
-      // Client ID and API key from the Developer Console
-      var CLIENT_ID = '691476761482-6ejhipcv1curd1kfdu2pqli7bmc2sqdd.apps.googleusercontent.com';
-      var API_KEY = 'AIzaSyAG3S3scUpmtOCHUHwicgvyESTNcvSIJXU';
+    <nav>
+    <img src="images/enkku-logo.png" alt="logo" height="100px" width="100px" align = "left">
+    <h1 style="margin-left: 110px; margin-top: 20px; margin-bottom: 0px;">EN KKU</h1>
+    <ul>
+        <li><button id="con-btn"><a href="contract.html">Contract</a></button></li>
+        <li><button id="home-btn"><a href="index.html"><i class="fa fa-home"></i></a></button></li> 
+    <ul>
+    <p style="margin-left: 110px; margin-top: 0%;">Education personnel properties selection</p>  
+    </nav>
 
-      // Array of API discovery doc URLs for APIs used by the quickstart
-      var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/gmail/v1/rest"];
+    <article>
+    
+    <div class="pane">
+        
+        <table class="panal">
 
-      // Authorization scopes required by the API; multiple scopes can be
-      // included, separated by spaces.
-      var SCOPES = 'https://www.googleapis.com/auth/gmail.readonly';
+        <td id="dept-col">
+        <p>สาขาวิชา (Department)</p>
+        <select class="dept-select" style="width:325px;">
+            <option value="" selected>สาขาวิชาทั้งหมด : All Department</option>
+            <option value="401">วิศวกรรมโยธา : Civil Engineering</option>
+            <option value="402">วิศวกรรมไฟฟ้า : Electrical Engineering</option>
+            <option value="403">วิศวกรรมเกษตร : Agriculture Engineering</option>
+            <option value="404">วิศวกรรมอุตสาหการ : Industrial Engineering</option>
+            <option value="405">วิศวกรรมเครื่องกล : Mechanical Engineering</option>
+            <option value="406">วิศวกรรมสิ่งแวดล้อม : Envirolmental Engineering</option>
+            <option value="407">วิศวกรรมเคมี : Chemical Engineering</option>
+            <option value="408">วิศวกรรมคอมพิวเตอร์ : Computer Engineering</option>
+        </select>
+        </td>
 
-      var authorizeButton = document.getElementById('authorize_button');
-      var signoutButton = document.getElementById('signout_button');
+        <td id="name-col">
+        
+        <p>ชื่อบุคลากร (Personnel name)</p>
+        <input id="search-box" type="text" style="width:225px;" placeholder="Search">
+        </td>
 
-      /**
-       *  On load, called to load the auth2 library and API client library.
-       */
-      function handleClientLoad() {
-        gapi.load('client:auth2', initClient);
-      }
+        <td id="btn-col">
+        <p id="btn-space">.</p>
+        <button type="submit" id="search-btn" method="GET" title="ค้นหา / Search"><i class="fa fa-search"></i></button>
+        <button type="submit" id="filter-btn"><a href="filter.html">คัดกรองบุคลกรไม่ผ่านเกณฑ์</a></button>
+        </td>
 
-      /**
-       *  Initializes the API client library and sets up sign-in state
-       *  listeners.
-       */
-      function initClient() {
-        gapi.client.init({
-          apiKey: API_KEY,
-          clientId: CLIENT_ID,
-          discoveryDocs: DISCOVERY_DOCS,
-          scope: SCOPES
-        }).then(function () {
-          // Listen for sign-in state changes.
-          gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus);
+        </table>
+        
+    </div>
+    <div class="headCard">
+        <table class="cardTable">
+            <td id="head-tb-no">ลำดับที่</td>
+            <td id="head-tb-nameTh">ชื่อบุคลากร</td>
+            <td id="head-tb-nameEn">Personnel Name</td>
+            <td id="head-tb-dept">สาขาวิชา (Department)</td>
+        </table>
+    </div>
+    <div class="res"></div>
+    
+    </article>
 
-          // Handle the initial sign-in state.
-          updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
-          authorizeButton.onclick = handleAuthClick;
-          signoutButton.onclick = handleSignoutClick;
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+
+        var jsonData
+        var searchButton = document.getElementById('search-btn')
+        var deptFilter = document.querySelector('.dept-select')
+        var searchInput = document.getElementById('search-box')
+        searchButton.addEventListener('click', searchClick)
+
+        $.get("https://cvs.enit.kku.ac.th/cv/objectData?dep_id&name&keyword&fbclid=IwAR1fSBEBQBuTbmA4nxgv0eCxX1fo51103Rh2ss2IwqwX1bnjW9b-bNKHIlI", function(data){
+            console.log(data);
+            console.log("test");
+            jsonData = data
+            genCard(data)
         });
-      }
-
-      /**
-       *  Called when the signed in status changes, to update the UI
-       *  appropriately. After a sign-in, the API is called.
-       */
-      function updateSigninStatus(isSignedIn) {
-        if (isSignedIn) {
-          authorizeButton.style.display = 'none';
-          signoutButton.style.display = 'block';
-          listLabels();
-        } else {
-          authorizeButton.style.display = 'block';
-          signoutButton.style.display = 'none';
+        function showData(name) {
+            window.location.href = 'showData.html?name=' + name;
         }
-      }
 
-      /**
-       *  Sign in the user upon button click.
-       */
-      function handleAuthClick(event) {
-        gapi.auth2.getAuthInstance().signIn();
-      }
+        function searchClick() {
+            var searchText = searchInput.value.toUpperCase()
+            var deptFilterValue = deptFilter.value
+            var newData = []
+            var deptFilterPass
+            var jsonDataLength = jsonData.length
 
-      /**
-       *  Sign out the user upon button click.
-       */
-      function handleSignoutClick(event) {
-        gapi.auth2.getAuthInstance().signOut();
-      }
+            for (var i = 0; i < jsonDataLength; i++) {
+                deptId = jsonData[i].DEP_ID;
+                en_first = jsonData[i].EMP_ENG_FIRST_NAME;
+                en_last = jsonData[i].EMP_ENG_LAST_NAME;
+                th_first = jsonData[i].EMP_TH_FIRST_NAME;
+                th_last = jsonData[i].EMP_TH_LAST_NAME;
+                en_name = en_first + ' ' + en_last;
+                th_name = th_first + ' ' + th_last;
 
-      /**
-       * Append a pre element to the body containing the given message
-       * as its text node. Used to display the results of the API call.
-       *
-       * @param {string} message Text to be placed in pre element.
-       */
-      function appendPre(message) {
-        var pre = document.getElementById('content');
-        var textContent = document.createTextNode(message + '\n');
-        pre.appendChild(textContent);
-      }
+                deptFilterPass = (deptId == deptFilterValue) || (deptFilterValue == '')
+                searchPass = (en_name.toUpperCase().search(searchText) != -1) || (th_name.search(searchText) != -1)
 
-      /**
-       * Print all Labels in the authorized user's inbox. If no labels
-       * are found an appropriate message is printed.
-       */
-      function listLabels() {
-        gapi.client.gmail.users.labels.list({
-          'userId': 'me'
-        }).then(function(response) {
-          var labels = response.result.labels;
-          appendPre('Labels:');
-
-          if (labels && labels.length > 0) {
-            for (i = 0; i < labels.length; i++) {
-              var label = labels[i];
-              appendPre(label.name)
+                if (deptFilterPass && searchPass) {
+                    newData = [...newData, jsonData[i]]
+                }
             }
-          } else {
-            appendPre('No Labels found.');
-          }
-        });
-      }
+            genCard(newData)
+        }
+
+        function genCard(data) {
+
+            var deptId;
+            var en_first;
+            var en_last;
+            var th_first;
+            var th_last;
+            var deptName;
+            var en_name;
+            var th_name;
+            var card = '';
+            var count = 0;
+
+            for (var i = 0; i < data.length; i++) {
+                deptId = data[i].DEP_ID;
+                en_first = data[i].EMP_ENG_FIRST_NAME;
+                en_last = data[i].EMP_ENG_LAST_NAME;
+                th_first = data[i].EMP_TH_FIRST_NAME;
+                th_last = data[i].EMP_TH_LAST_NAME;
+                en_name = en_first + ' ' + en_last;
+                th_name = th_first + ' ' + th_last;
+
+                    switch (deptId) {
+                        case 401:
+                            deptName = 'วิศวกรรมโยธา';
+                            break;
+                        case 402:
+                            deptName = 'วิศวกรรมไฟฟ้า';
+                            break;
+                        case 403:
+                            deptName = 'วิศวกรรมเกษตร';
+                            break;
+                        case 404:
+                            deptName = 'วิศวกรรมอุตสาหการ';
+                            break;
+                        case 405:
+                            deptName = 'วิศวกรรมเครื่องกล';
+                            break;
+                        case 406:
+                            deptName = 'วิศวกรรมสิ่งแวดล้อม';
+                            break;
+                        case 407:
+                            deptName = 'วิศวกรรมเคมี';
+                            break;
+                        case 408:
+                            deptName = 'วิศวกรรมคอมพิวเตอร์';
+                            break;
+                    }
+
+                    count++;
+                    card += '<div class="card" onclick="showData(\'' + en_name + '\')"><table class="cardTable" ><tr>' + 
+                        '<td class="numberTd" align="center">' + count + '</td>' +
+                        '<td class="cardTdThName">' + th_name + '</td>' +
+                        '<td class="cardTdEnName">' + en_name + '</td>' +
+                        '<td class="cardTdDept">' + deptName + '</td>' +
+                        '</tr></table></div>';
+
+            }
+            
+            $('.res').html(card);
+
+        }
 
     </script>
 
-    <script async defer src="https://apis.google.com/js/api.js"
-      onload="this.onload=function(){};handleClientLoad()"
-      onreadystatechange="if (this.readyState === 'complete') this.onload()">
-    </script>
-  </body>
 </html>

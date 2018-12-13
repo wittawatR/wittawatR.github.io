@@ -1,0 +1,752 @@
+[
+    {
+        "profNameEN": "Kornchawal Chaipah",
+        "profNameTH": "กรชวัล ชายผา",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Krit Choeisai",
+        "profNameTH": "กฤษ เฉยไสย",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Korb Srinavin",
+        "profNameTH": "กอปร ศรีนาวิน",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Kanyarat Holasut",
+        "profNameTH": "กันยรัตน์ โหละสุต",
+        "deptName": "วิศวกรรมเคมี"
+    },
+    {
+        "profNameEN": "Kulyakorn  Khuanmar",
+        "profNameTH": "กัลยกร ขวัญมา",
+        "deptName": "วิศวกรรมสิ่งแวดล้อม"
+    },
+    {
+        "profNameEN": "Kanchna Setthanan",
+        "profNameTH": "กาญจนา เศรษฐนันท์",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Kanda Saikaew",
+        "profNameTH": "กานดา สายแก้ว",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Kittipong Laloon",
+        "profNameTH": "กิตติพงษ์ ลาลุน",
+        "deptName": "วิศวกรรมเกษตร"
+    },
+    {
+        "profNameEN": "Kittipitch Meesawat",
+        "profNameTH": "กิตติพิชญ์ มีสวาสดิ์",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Kittiwet Kuntiyawichai",
+        "profNameTH": "กิตติเวช ขันติยวิชัย",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Kitt Tientanopajai",
+        "profNameTH": "กิตติ์ เธียรธโนปจัย",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Kitirote Wantala",
+        "profNameTH": "กิติโรจน์  หวันตาหลา",
+        "deptName": "วิศวกรรมเคมี"
+    },
+    {
+        "profNameEN": "Khanita Kamwilaisak",
+        "profNameTH": "ขนิษฐา คำวิลัยศักดิ์",
+        "deptName": "วิศวกรรมเคมี"
+    },
+    {
+        "profNameEN": "Khwantri Saengprachatanarug",
+        "profNameTH": "ขวัญตรี แสงประชาธนารักษ์",
+        "deptName": "วิศวกรรมเกษตร"
+    },
+    {
+        "profNameEN": "Komkrit  Pitiruek",
+        "profNameTH": "คมกฤช  ปิติฤกษ์",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Cumnueng Watyotha",
+        "profNameTH": "คำนึง วาทโยธา",
+        "deptName": "วิศวกรรมเกษตร"
+    },
+    {
+        "profNameEN": "Jonggrist  Jongudomkarn",
+        "profNameTH": "จงกฤษฏิ์  จงอุดมการณ์",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Jaruek Teerawong",
+        "profNameTH": "จารึก ถีระวงษ์",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Charuphon Suriyawanakul",
+        "profNameTH": "จารุพล สุริยวนากุล",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Jittin Triputtarat",
+        "profNameTH": "จิตติน ตรีพุทธรัตน์",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Jiradej Ponsawat",
+        "profNameTH": "จิระเดช พลสวัสดิ์",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Chiranut Sa-ngiamsak",
+        "profNameTH": "จีรนุช เสงี่ยมศักดิ์",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Julaporn Benjapiyaporn",
+        "profNameTH": "จุฬาภรณ์ เบญจปิยะพร",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Chatchai Benjapiyaporn",
+        "profNameTH": "ฉัตรชัย เบญจปิยะพร",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Chanoknun Sookkumnerd",
+        "profNameTH": "ชนกนันท์ สุขกำเนิด",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Chavis  Srichan",
+        "profNameTH": "ชวิศ  ศรีจันทร์",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Chatchai  Khunboa",
+        "profNameTH": "ชัชชัย คุณบัว",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Chatchaival Iyathiti",
+        "profNameTH": "ชัชวาล อัยยาธิติ",
+        "deptName": "วิศวกรรมสิ่งแวดล้อม"
+    },
+    {
+        "profNameEN": "Chaiyaput Kruehong",
+        "profNameTH": "ชัยภัทร เครือหงส์",
+        "deptName": "วิศวกรรมเคมี"
+    },
+    {
+        "profNameEN": "Chaiyan Junsiri",
+        "profNameTH": "ชัยยันต์ จันทร์ศิริ",
+        "deptName": "วิศวกรรมเกษตร"
+    },
+    {
+        "profNameEN": "Charnnarong Saikaew",
+        "profNameTH": "ชาญณรงค์ สายแก้ว",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Chattichai Waisurasingha",
+        "profNameTH": "ชาติชาย ไวยสุระสิงห์",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Chinawat Muktabhant",
+        "profNameTH": "ชินะวัฒน์ มุกตพันธุ์",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Thanawath  Niyamosoth",
+        "profNameTH": "ฐนวรรธน์ นิยะโมสถ",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Thitipong Jamrus",
+        "profNameTH": "ฐิติพงศ์ จำรัส",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Nantiwat  Pholdee",
+        "profNameTH": "ณัญธิวัฒน์ พลดี",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Natthapong Areemit",
+        "profNameTH": "ณัฐพงษ์ อารีมิตร",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Danaipong Chetchotsak",
+        "profNameTH": "ดนัยพงศ์ เชษฐโชติศักดิ์",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Dolrerdee Hormdee",
+        "profNameTH": "ดลฤดี หอมดี",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Duangkanok  Tanangteerapong",
+        "profNameTH": "ดวงกนก  ธนังธีรพงษ์",
+        "deptName": "วิศวกรรมเคมี"
+    },
+    {
+        "profNameEN": "Daranee Hormdee",
+        "profNameTH": "ดารณี หอมดี",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Songsak Suwannasri",
+        "profNameTH": "ทรงศักดิ์ สุวรรณศรี",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Thawee Nakrachata-amon",
+        "profNameTH": "ทวี นาครัชตะอมร",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Tinnakorn Kumsaen",
+        "profNameTH": "ทินกร คำแสน",
+        "deptName": "วิศวกรรมเคมี"
+    },
+    {
+        "profNameEN": "Thana Radpukdee",
+        "profNameTH": "ธนา ราษฎร์ภักดี",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Thanakorn Wongwuttanasatian",
+        "profNameTH": "ธนากร วงศ์วัฒนาเสถียร",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Tatpong Katanyukul",
+        "profNameTH": "ธัชพงศ์  กตัญญูกุล",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Thunyalux Ratpukdi",
+        "profNameTH": "ธัญลักษณ์  ราษฎร์ภักดี",
+        "deptName": "วิศวกรรมสิ่งแวดล้อม"
+    },
+    {
+        "profNameEN": "Tanyada Pannachet",
+        "profNameTH": "ธันยดา พรรณเชษฐ์",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Teerawat Laonapakul",
+        "profNameTH": "ธีรวัฒน์ เหล่านภากุล",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Thaned Satiennam",
+        "profNameTH": "ธเนศ เสถียรนาม",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Natee  Panagant",
+        "profNameTH": "นที  พนากานต์",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Napat Triroj",
+        "profNameTH": "นภัสถ์ ไตรโรจน์",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Nararat Ruangchaijatupon",
+        "profNameTH": "นรารัตน์ เรืองชัยจตุพร",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Nawapak Eua-anant",
+        "profNameTH": "นวภัค เอื้ออนันต์",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Numpon Mahayotsanun",
+        "profNameTH": "นำพล มหายศนันท์",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Niyom Pinitkarn",
+        "profNameTH": "นิยม พินิจการ",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Boonying Charoen",
+        "profNameTH": "บุญยิ่ง เจริญ",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Panitarn Peerapattana",
+        "profNameTH": "ปณิธาน พีรพัฒนา",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Panitan Jutaporn",
+        "profNameTH": "ปณิธาน จูฑาพร",
+        "deptName": "วิศวกรรมสิ่งแวดล้อม"
+    },
+    {
+        "profNameEN": "Panitas  Sureeyatanapas",
+        "profNameTH": "ปนิทัศน์  สุรียธนาภาส",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Pramin Artrit",
+        "profNameTH": "ประมินทร์ อาจฤทธิ์",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Prinya Chindaprasirt",
+        "profNameTH": "ปริญญา จินดาประเสริฐ",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Panhathai Buasri",
+        "profNameTH": "ปานหทัย บัวศรี",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Papot Jaroenapibal",
+        "profNameTH": "ปาพจน์ เจริญอภิบาล",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Piyawat Foytong",
+        "profNameTH": "ปิยะวัชร ฝอยทอง",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Piyoros Jirawattana",
+        "profNameTH": "ปิโยรส จิระวัฒนา",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Pongsakorn Punrattanasin",
+        "profNameTH": "พงศกร พรรณรัตนศิลป์",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Pongrid Klungboonkrong",
+        "profNameTH": "พนกฤษณ คลังบุญครอง",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Panomkorn Kwakhong",
+        "profNameTH": "พนมกร ขวาของ",
+        "deptName": "วิศวกรรมเคมี"
+    },
+    {
+        "profNameEN": "Panomchai Veerayutsil",
+        "profNameTH": "พนมชัย วีระยุทธศิลป์",
+        "deptName": "วิศวกรรมสิ่งแวดล้อม"
+    },
+    {
+        "profNameEN": "Pornnapa Kasemsiri",
+        "profNameTH": "พรนภา  เกษมศิริ",
+        "deptName": "วิศวกรรมเคมี"
+    },
+    {
+        "profNameEN": "Porntep Khokhajaikiat",
+        "profNameTH": "พรเทพ ขอขจายเกียรติ",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Phanwatt Phungsai",
+        "profNameTH": "พันวัตต์  พึ่งสาย",
+        "deptName": "วิศวกรรมสิ่งแวดล้อม"
+    },
+    {
+        "profNameEN": "Phatsaphan Charnwasununth",
+        "profNameTH": "พัศพันธน์ ชาญวสุนันท์",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Pirat  Khunkitti",
+        "profNameTH": "พิรัสม์ คุณกิตติ",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Bhichate Chiewthanakul",
+        "profNameTH": "พิเชษฐ เชี่ยวธนะกุล",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Pattarawit   Polpinit",
+        "profNameTH": "ภัทรวิทย์ พลพินิจ",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Panupong Wanjantuk",
+        "profNameTH": "ภาณุพงษ์ วันจันทึก",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Pinthita Mungkarndee",
+        "profNameTH": "ภิญญ์ฑิตา มุ่งการดี",
+        "deptName": "วิศวกรรมสิ่งแวดล้อม"
+    },
+    {
+        "profNameEN": "Puripong  Suthisopapan",
+        "profNameTH": "ภูริพงศ์   สุทธิโสภาพันธ์",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Yuvarat Ngernyen",
+        "profNameTH": "ยุวรัตน์ เงินเย็น",
+        "deptName": "วิศวกรรมเคมี"
+    },
+    {
+        "profNameEN": "Rongrit  Chatthaworn",
+        "profNameTH": "รองฤทธิ์ ฉัตรถาวร",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Raknoi Arkararungraingkul",
+        "profNameTH": "รักน้อย อัครรุ่งเรืองกุล",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Ratchaphon Suntivarakorn",
+        "profNameTH": "รัชพล สันติวรากร",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Rattabal Khunphonoi",
+        "profNameTH": "รัฐบาล ขันธ์โพธิ์น้อย",
+        "deptName": "วิศวกรรมสิ่งแวดล้อม"
+    },
+    {
+        "profNameEN": "Ratamanee Nuntasarn",
+        "profNameTH": "รัตมณี นันทสาร",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Rujchai Ung-arunyawee",
+        "profNameTH": "รุจชัย อึ้งอารุณยะวี",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Ladda Tanwanichkul",
+        "profNameTH": "ลัดดา ตันวาณิชกุล",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Wanida Kanarkard",
+        "profNameTH": "วนิดา แก่นอากาศ",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Warayut  Kampeerawat",
+        "profNameTH": "วรายุทธ  คัมภีราวัฒน์",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Varinrumpai Seithtanabutara",
+        "profNameTH": "วรินรำไพ เศรษฐ์ธณบุตร",
+        "deptName": "วิศวกรรมเคมี"
+    },
+    {
+        "profNameEN": "Wasu Chaopanon",
+        "profNameTH": "วสุ เชาว์พานนท์",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Vanchai Sata",
+        "profNameTH": "วันชัย สะตะ",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Watis Leelapatra",
+        "profNameTH": "วาธิส ลีลาภัทร",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Witcha Feungchan",
+        "profNameTH": "วิชชา เฟื่องจันทร์",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Wichuda Satiennam",
+        "profNameTH": "วิชุดา เสถียรนาม",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Winai Sri-Amporn",
+        "profNameTH": "วินัย ศรีอำพร",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Virasit Imtawil",
+        "profNameTH": "วิระสิทธิ์ อิ่มถวิล",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Visanu  Tanboonchuy",
+        "profNameTH": "วิษณุ  แทนบุญช่วย",
+        "deptName": "วิศวกรรมสิ่งแวดล้อม"
+    },
+    {
+        "profNameEN": "Vichian Plermkamon",
+        "profNameTH": "วิเชียร ปลื้มกมล",
+        "deptName": "วิศวกรรมเกษตร"
+    },
+    {
+        "profNameEN": "Wiroj Taweepworadej",
+        "profNameTH": "วิโรจน์ ทวีปวรเดช",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Weerapat Sessomboon",
+        "profNameTH": "วีรพัฒน์ เศรษฐ์สมบูรณ์",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Veera Horsakulthai",
+        "profNameTH": "วีระ หอสกุลไท",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Sarawuth ChaiMool",
+        "profNameTH": "ศราวุธ ชัยมูล",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Sirawadee Arunyanart",
+        "profNameTH": "ศิรวดี อรัญนารถ",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Sirorat  Pattanapairoj",
+        "profNameTH": "ศิโรรัตน์  พัฒนไพโรจน์",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Seekharin Sukto",
+        "profNameTH": "ศีขรินทร์ สุขโต",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Supachai Pathumnakul",
+        "profNameTH": "ศุภชัย ปทุมนากุล",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Supasit  Konyai",
+        "profNameTH": "ศุภสิทธิ์ คนใหญ่",
+        "deptName": "วิศวกรรมเกษตร"
+    },
+    {
+        "profNameEN": "Sa-Nguan Boonpanyarak",
+        "profNameTH": "สงวน บุญปัญญารักษ์",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Sathiraporn Pornnimitra",
+        "profNameTH": "สถิรพร พรนิมิตร",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Somchai Chuan-Udom",
+        "profNameTH": "สมชาย ชวนอุดม",
+        "deptName": "วิศวกรรมเกษตร"
+    },
+    {
+        "profNameEN": "Somsak Homdee",
+        "profNameTH": "สมศักดิ์ หอมดี",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Somposh Sudajan",
+        "profNameTH": "สมโภชน์ สุดาจันทร์",
+        "deptName": "วิศวกรรมเกษตร"
+    },
+    {
+        "profNameEN": "Somjai Kajorncheappun-ngam",
+        "profNameTH": "สมใจ ขจรชีพพันธุ์งาม",
+        "deptName": "วิศวกรรมเคมี"
+    },
+    {
+        "profNameEN": "Sukangkana Talangkun",
+        "profNameTH": "สุขอังคณา แถลงกัณฑ์",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Sujin Bureerat",
+        "profNameTH": "สุจินต์ บุรีรัตน์",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Sutasinee Neramittagapong",
+        "profNameTH": "สุธาสินี เนรมิตตกพงศ์",
+        "deptName": "วิศวกรรมเคมี"
+    },
+    {
+        "profNameEN": "Supattra Plermkamon",
+        "profNameTH": "สุภัทรา ปลื้มกมล",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Sumana Ratpukdi",
+        "profNameTH": "สุมนา ราษฎร์ภักดี",
+        "deptName": "วิศวกรรมสิ่งแวดล้อม"
+    },
+    {
+        "profNameEN": "Surapol Padungthon",
+        "profNameTH": "สุรพล ผดุงทน",
+        "deptName": "วิศวกรรมสิ่งแวดล้อม"
+    },
+    {
+        "profNameEN": "Surasith Piyasin",
+        "profNameTH": "สุรสิทธิ์ ปิยะศิลป์",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Surat  Pramualsakdikul ",
+        "profNameTH": "สุรัตน์ ประมวลศักดิกุล",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Atip Laungphairojana",
+        "profNameTH": "อธิป เหลืองไพโรจน์",
+        "deptName": "วิศวกรรมเคมี"
+    },
+    {
+        "profNameEN": "Arnut Chaosakul",
+        "profNameTH": "อนัตต์ เจ่าสกุล",
+        "deptName": "วิศวกรรมคอมพิวเตอร์"
+    },
+    {
+        "profNameEN": "Anan  Kruesubthaworn",
+        "profNameTH": "อนันต์ เครือทรัพย์ถาวร",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Anucha  Saengrung",
+        "profNameTH": "อนุชา แสงรุ่ง",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Anusorn Chinsuwan",
+        "profNameTH": "อนุสรณ์ ชินสุวรรณ",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Apichart Boonma",
+        "profNameTH": "อภิชาติ บุญมา",
+        "deptName": "วิศวกรรมอุตสาหการ"
+    },
+    {
+        "profNameEN": "Apichart Artnaseaw",
+        "profNameTH": "อภิชาติ อาจนาเสียว",
+        "deptName": "วิศวกรรมเคมี"
+    },
+    {
+        "profNameEN": "Apirat Siritaratiwat",
+        "profNameTH": "อภิรัฐ ศิริธราธิวัตร",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Oranat   Chuchuen",
+        "profNameTH": "อรณัฐ ชูชื่น",
+        "deptName": "วิศวกรรมเคมี"
+    },
+    {
+        "profNameEN": "Akraphon Janon",
+        "profNameTH": "อัครพล จันทร์อ่อน",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Anchalee Saengsai",
+        "profNameTH": "อัญชลี แสงซ้าย",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Arkom Kaewrawang",
+        "profNameTH": "อาคม แก้วระวัง",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Arthit Neramittagapong",
+        "profNameTH": "อาทิตย์ เนรมิตตกพงศ์",
+        "deptName": "วิศวกรรมเคมี"
+    },
+    {
+        "profNameEN": "Anupap Meesomboon",
+        "profNameTH": "อานุภาพ มีสมบูรณ์",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Arwut Yimtae",
+        "profNameTH": "อาวุธ ยิ้มแต้",
+        "deptName": "วิศวกรรมสิ่งแวดล้อม"
+    },
+    {
+        "profNameEN": "Amnart Suksri",
+        "profNameTH": "อำนาจ สุขศรี",
+        "deptName": "วิศวกรรมไฟฟ้า"
+    },
+    {
+        "profNameEN": "Kiatfa Tangchaichit",
+        "profNameTH": "เกียรติฟ้า ตั้งใจจิต",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Khemachit Sena",
+        "profNameTH": "เขมจิต เสนา",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Jetsada  Posom",
+        "profNameTH": "เจษฎา  โพธิ์สม",
+        "deptName": "วิศวกรรมเกษตร"
+    },
+    {
+        "profNameEN": "Chalermchai Pawattana",
+        "profNameTH": "เฉลิมชัย พาวัฒนา",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Denpong Soodphakdee",
+        "profNameTH": "เด่นพงษ์ สุดภักดี",
+        "deptName": "วิศวกรรมเครื่องกล"
+    },
+    {
+        "profNameEN": "Maetee  Boonpichetvong",
+        "profNameTH": "เมธี บุญพิเชฐวงศ์",
+        "deptName": "วิศวกรรมโยธา"
+    },
+    {
+        "profNameEN": "Seree Wongpichet",
+        "profNameTH": "เสรี วงส์พิเชษฐ",
+        "deptName": "วิศวกรรมเกษตร"
+    },
+    {
+        "profNameEN": "Kaewta  Jetsrisuparb",
+        "profNameTH": "แก้วตา เจตศรีสุภาพ",
+        "deptName": "วิศวกรรมเคมี"
+    },
+    {
+        "profNameEN": "Phayom Saraphirom",
+        "profNameTH": "โพยม สราภิรมย์",
+        "deptName": "วิศวกรรมเกษตร"
+    },
+    {
+        "profNameEN": "Pairaya Choeisai",
+        "profNameTH": "ไปรยา เฉยไสย",
+        "deptName": "วิศวกรรมสิ่งแวดล้อม"
+    }
+]
